@@ -9,18 +9,28 @@ Object.defineProperty(exports, "__esModule", {
  ***************************************************************************/
 
 var data = {
- translation: require("../data/translation.json"),
- transliteration: require("../data/transliteration.json"),
- dictionary: require("../data/dictionary.json")
+  translation: require("../data/translation.json"),
+  transliteration: require("../data/transliteration.json"),
+  dictionary: require("../data/dictionary.json")
 };
+
+/**************************************************************************
+ * CONSTANTS
+ ***************************************************************************/
+
+var DEFAULT_SCOPE = "translation";
 
 /**************************************************************************
  * FUNCTIONS
  ***************************************************************************/
 
 var isLanguageSupported = function(code, scope) {
-  if (!code || !scope) {
-    throw new Error("Missing code and/or scope");
+  if (!code) {
+    throw new Error("Missing code scope");
+  }
+
+  if (!scope) {
+    scope = DEFAULT_SCOPE;
   }
 
   if (data[scope] === undefined || data[scope] === {}) {
