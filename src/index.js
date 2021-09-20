@@ -8,7 +8,6 @@ Object.defineProperty(exports, "__esModule", {
  * IMPORTS
  ***************************************************************************/
 
-var fs = require("fs");
 var path = require("path");
 
 var dataDir = path.join(__dirname, "/../data/");
@@ -31,11 +30,7 @@ var data = {
 
 var load = function() {
   for (var fileName in dataFiles) {
-    var buffer = fs.readFileSync(dataFiles[fileName]);
-
-    data[fileName] = (
-      JSON.parse(buffer)
-    );
+    data[fileName] = require(dataFiles[fileName]);
   }
 };
 
