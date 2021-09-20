@@ -10,7 +10,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var path = require("path");
 
-var dataDir = path.join(__dirname, "/../data/");
+var dataDir = "../data/";
 
 var dataFiles = {
   translation: path.join(dataDir, "translation.json"),
