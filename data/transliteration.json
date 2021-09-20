@@ -1,0 +1,1174 @@
+{
+  "ar": {
+    "name": "Arabic",
+    "nativeName": "العربية",
+    "scripts": [
+      {
+        "code": "Arab",
+        "name": "Arabic",
+        "nativeName": "العربية",
+        "dir": "rtl",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "اللاتينية",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "اللاتينية",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Arab",
+            "name": "Arabic",
+            "nativeName": "العربية",
+            "dir": "rtl"
+          }
+        ]
+      }
+    ]
+  },
+  "as": {
+    "name": "Assamese",
+    "nativeName": "অসমীয়া",
+    "scripts": [
+      {
+        "code": "Beng",
+        "name": "Bengali",
+        "nativeName": "Bengali",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Beng",
+            "name": "Bangla",
+            "nativeName": "Bengali",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "be": {
+    "name": "Belarusian",
+    "nativeName": "Belarusian",
+    "scripts": [
+      {
+        "code": "Cyrl",
+        "name": "Cyrillic",
+        "nativeName": "Cyrillic",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Cyrl",
+            "name": "Cyrillic",
+            "nativeName": "Cyrillic",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "bg": {
+    "name": "Bulgarian",
+    "nativeName": "Български",
+    "scripts": [
+      {
+        "code": "Cyrl",
+        "name": "Cyrillic",
+        "nativeName": "Кирилица",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Латиница",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Латиница",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Cyrl",
+            "name": "Cyrillic",
+            "nativeName": "Кирилица",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "bn": {
+    "name": "Bangla",
+    "nativeName": "বাংলা",
+    "scripts": [
+      {
+        "code": "Beng",
+        "name": "Bengali",
+        "nativeName": "Bengali",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Beng",
+            "name": "Bangla",
+            "nativeName": "Bengali",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "el": {
+    "name": "Greek",
+    "nativeName": "Ελληνικά",
+    "scripts": [
+      {
+        "code": "Grek",
+        "name": "Greek",
+        "nativeName": "Ελληνικά",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Λατινικά",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Λατινικά",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Grek",
+            "name": "Greek",
+            "nativeName": "Ελληνικά",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "fa": {
+    "name": "Persian",
+    "nativeName": "فارسی",
+    "scripts": [
+      {
+        "code": "Arab",
+        "name": "Arabic",
+        "nativeName": "‏‏عربي",
+        "dir": "rtl",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "لاتین",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "لاتین",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Arab",
+            "name": "Arabic",
+            "nativeName": "‏‏عربي",
+            "dir": "rtl"
+          }
+        ]
+      }
+    ]
+  },
+  "gu": {
+    "name": "Gujarati",
+    "nativeName": "ગુજરાતી",
+    "scripts": [
+      {
+        "code": "Gujr",
+        "name": "Gujarati",
+        "nativeName": "Gujarati",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Gujr",
+            "name": "Gujarati",
+            "nativeName": "Gujarati",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "he": {
+    "name": "Hebrew",
+    "nativeName": "עברית",
+    "scripts": [
+      {
+        "code": "Hebr",
+        "name": "Hebrew",
+        "nativeName": "עברית",
+        "dir": "rtl",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "לטינית",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "לטינית",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Hebr",
+            "name": "Hebrew",
+            "nativeName": "עברית",
+            "dir": "rtl"
+          }
+        ]
+      }
+    ]
+  },
+  "hi": {
+    "name": "Hindi",
+    "nativeName": "हिन्दी",
+    "scripts": [
+      {
+        "code": "Deva",
+        "name": "Devanagari",
+        "nativeName": "देवनागरी",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "लैटिन",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "लैटिन",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Deva",
+            "name": "Devanagari",
+            "nativeName": "देवनागरी",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "ja": {
+    "name": "Japanese",
+    "nativeName": "日本語",
+    "scripts": [
+      {
+        "code": "Jpan",
+        "name": "Japanese",
+        "nativeName": "日本語",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "ラテン語",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "ラテン語",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Jpan",
+            "name": "Japanese",
+            "nativeName": "日本語",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "kk": {
+    "name": "Kazakh",
+    "nativeName": "Қазақ Тілі",
+    "scripts": [
+      {
+        "code": "Cyrl",
+        "name": "Cyrillic",
+        "nativeName": "Cyrillic",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Cyrl",
+            "name": "Cyrillic",
+            "nativeName": "Cyrillic",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "kn": {
+    "name": "Kannada",
+    "nativeName": "ಕನ್ನಡ",
+    "scripts": [
+      {
+        "code": "Knda",
+        "name": "Kannada",
+        "nativeName": "Kannada",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Knda",
+            "name": "Kannada",
+            "nativeName": "Kannada",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "ko": {
+    "name": "Korean",
+    "nativeName": "한국어",
+    "scripts": [
+      {
+        "code": "Kore",
+        "name": "Korean",
+        "nativeName": "한국어",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "라틴어",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "라틴어",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Kore",
+            "name": "Korean",
+            "nativeName": "한국어",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "ky": {
+    "name": "Kyrgyz",
+    "nativeName": "Kyrgyz",
+    "scripts": [
+      {
+        "code": "Cyrl",
+        "name": "Cyrillic",
+        "nativeName": "Cyrillic",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Cyrl",
+            "name": "Cyrillic",
+            "nativeName": "Cyrillic",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "mk": {
+    "name": "Macedonian",
+    "nativeName": "Македонски",
+    "scripts": [
+      {
+        "code": "Cyrl",
+        "name": "Cyrillic",
+        "nativeName": "Cyrillic",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Cyrl",
+            "name": "Cyrillic",
+            "nativeName": "Cyrillic",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "ml": {
+    "name": "Malayalam",
+    "nativeName": "മലയാളം",
+    "scripts": [
+      {
+        "code": "Mlym",
+        "name": "Malayalam",
+        "nativeName": "Malayalam",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Mlym",
+            "name": "Malayalam",
+            "nativeName": "Malayalam",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "mn-Cyrl": {
+    "name": "Mongolian (Cyrillic)",
+    "nativeName": "Mongolian (Cyrillic)",
+    "scripts": [
+      {
+        "code": "Cyrl",
+        "name": "Cyrillic",
+        "nativeName": "Cyrillic",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Cyrl",
+            "name": "Cyrillic",
+            "nativeName": "Cyrillic",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "mr": {
+    "name": "Marathi",
+    "nativeName": "मराठी",
+    "scripts": [
+      {
+        "code": "Deva",
+        "name": "Devanagari",
+        "nativeName": "Devanagari",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Deva",
+            "name": "Devanagari",
+            "nativeName": "Devanagari",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "or": {
+    "name": "Odia",
+    "nativeName": "ଓଡ଼ିଆ",
+    "scripts": [
+      {
+        "code": "Orya",
+        "name": "Odia",
+        "nativeName": "Odia",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Orya",
+            "name": "Odia",
+            "nativeName": "Odia",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "pa": {
+    "name": "Punjabi",
+    "nativeName": "ਪੰਜਾਬੀ",
+    "scripts": [
+      {
+        "code": "Guru",
+        "name": "Gurmukhi",
+        "nativeName": "Gurmukhi",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Guru",
+            "name": "Gurmukhi",
+            "nativeName": "Gurmukhi",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "ru": {
+    "name": "Russian",
+    "nativeName": "Русский",
+    "scripts": [
+      {
+        "code": "Cyrl",
+        "name": "Cyrillic",
+        "nativeName": "Кириллическая",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Латинская",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Латинская",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Cyrl",
+            "name": "Cyrillic",
+            "nativeName": "Кириллическая",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "sd": {
+    "name": "Sindhi",
+    "nativeName": "Sindhi",
+    "scripts": [
+      {
+        "code": "Arab",
+        "name": "Arabic",
+        "nativeName": "Arabic",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Arab",
+            "name": "Arabic",
+            "nativeName": "Arabic",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "si": {
+    "name": "Sinhala",
+    "nativeName": "Sinhala",
+    "scripts": [
+      {
+        "code": "Sinh",
+        "name": "Sinhala",
+        "nativeName": "Sinhala",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Sinh",
+            "name": "Sinhala",
+            "nativeName": "Sinhala",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "sr-Cyrl": {
+    "name": "Serbian (Cyrillic)",
+    "nativeName": "Српски (ћирилица)",
+    "scripts": [
+      {
+        "code": "Cyrl",
+        "name": "Cyrillic",
+        "nativeName": "Cyrillic",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latinski",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "sr-Latn": {
+    "name": "Serbian (Latin)",
+    "nativeName": "Srpski (latinica)",
+    "scripts": [
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latinski",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Cyrl",
+            "name": "Cyrillic",
+            "nativeName": "Ćirilica",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "ta": {
+    "name": "Tamil",
+    "nativeName": "தமிழ்",
+    "scripts": [
+      {
+        "code": "Taml",
+        "name": "Tamil",
+        "nativeName": "Tamil",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Taml",
+            "name": "Tamil",
+            "nativeName": "Tamil",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "te": {
+    "name": "Telugu",
+    "nativeName": "తెలుగు",
+    "scripts": [
+      {
+        "code": "Telu",
+        "name": "Telugu",
+        "nativeName": "Telugu",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Telu",
+            "name": "Telugu",
+            "nativeName": "Telugu",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "tg": {
+    "name": "Tajik",
+    "nativeName": "Tajik (Cyrillic)",
+    "scripts": [
+      {
+        "code": "Cyrl",
+        "name": "Cyrillic",
+        "nativeName": "Cyrillic",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Cyrl",
+            "name": "Cyrillic",
+            "nativeName": "Cyrillic",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "th": {
+    "name": "Thai",
+    "nativeName": "ไทย",
+    "scripts": [
+      {
+        "code": "Thai",
+        "name": "Thai",
+        "nativeName": "ภาษาไทย",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "ละติน",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "tt": {
+    "name": "Tatar",
+    "nativeName": "Татар",
+    "scripts": [
+      {
+        "code": "Cyrl",
+        "name": "Cyrillic",
+        "nativeName": "Cyrillic",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Cyrl",
+            "name": "Cyrillic",
+            "nativeName": "Cyrillic",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "uk": {
+    "name": "Ukrainian",
+    "nativeName": "Українська",
+    "scripts": [
+      {
+        "code": "Cyrl",
+        "name": "Cyrillic",
+        "nativeName": "Кирилиця",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "латиниця",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "латиниця",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Cyrl",
+            "name": "Cyrillic",
+            "nativeName": "Кирилиця",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "ur": {
+    "name": "Urdu",
+    "nativeName": "اردو",
+    "scripts": [
+      {
+        "code": "Arab",
+        "name": "Arabic",
+        "nativeName": "Arabic",
+        "dir": "rtl",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Arab",
+            "name": "Arabic",
+            "nativeName": "Arabic",
+            "dir": "rtl"
+          }
+        ]
+      }
+    ]
+  },
+  "zh-Hans": {
+    "name": "Chinese Simplified",
+    "nativeName": "中文 (简体)",
+    "scripts": [
+      {
+        "code": "Hans",
+        "name": "Simplified",
+        "nativeName": "简体汉语",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "拉丁语",
+            "dir": "ltr"
+          },
+          {
+            "code": "Hant",
+            "name": "Hat",
+            "nativeName": "传统",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "拉丁语",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Hans",
+            "name": "Han",
+            "nativeName": "简体汉语",
+            "dir": "ltr"
+          },
+          {
+            "code": "Hant",
+            "name": "Hat",
+            "nativeName": "传统",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "zh-Hant": {
+    "name": "Chinese Traditional",
+    "nativeName": "繁體中文 (繁體)",
+    "scripts": [
+      {
+        "code": "Hant",
+        "name": "Traditional",
+        "nativeName": "傳統",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "拉丁语",
+            "dir": "ltr"
+          },
+          {
+            "code": "Hans",
+            "name": "Han",
+            "nativeName": "简体汉语",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "拉丁文",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Hans",
+            "name": "Han",
+            "nativeName": "简体汉语",
+            "dir": "ltr"
+          },
+          {
+            "code": "Hant",
+            "name": "Hat",
+            "nativeName": "传统",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  }
+}
