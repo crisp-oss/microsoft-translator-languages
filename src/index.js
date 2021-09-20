@@ -8,31 +8,15 @@ Object.defineProperty(exports, "__esModule", {
  * IMPORTS
  ***************************************************************************/
 
-var path = require("path");
-
-var dataDir = "../data/";
-
-var dataFiles = {
-  translation: path.join(dataDir, "translation.json"),
-  transliteration: path.join(dataDir, "transliteration.json"),
-  dictionary: path.join(dataDir, "dictionary.json")
+var data = {
+ translation: require("../data/translation.json"),
+ transliteration: require("../data/transliteration.json"),
+ dictionary: require("../data/dictionary.json")
 };
 
 /**************************************************************************
  * FUNCTIONS
  ***************************************************************************/
-
-var data = {
-  translation: {},
-  transliteration: {},
-  dictionary: {}
-};
-
-var load = function() {
-  for (var fileName in dataFiles) {
-    data[fileName] = require(dataFiles[fileName]);
-  }
-};
 
 var isLanguageSupported = function(code, scope) {
   if (!code || !scope) {
@@ -45,8 +29,6 @@ var isLanguageSupported = function(code, scope) {
 
   return Object.prototype.hasOwnProperty.call(data[scope], code);
 };
-
-load();
 
 /**************************************************************************
  * EXPORTS
