@@ -1,0 +1,24 @@
+{
+  "version": "0.1.0",
+  "name": "microsoft-translator-languages",
+  "description": "Maps supported languages by Microsoft Cognitive Translator",
+  "author": "Eliott Vincent <eliott@crisp.chat>",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crisp-dev/microsoft-translator-languages"
+  },
+  "bugs": {
+    "url": "https://github.com/crisp-dev/microsoft-translator-languages/issues"
+  },
+  "keywords": [
+    "microsoft",
+    "azure",
+    "cognitive",
+    "translator",
+    "language",
+    "languages",
+    "language-list"
+  ],
+  "license": "MIT"
+}
