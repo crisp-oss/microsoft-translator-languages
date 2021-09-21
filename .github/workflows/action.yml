@@ -1,5 +1,7 @@
 name: Release
-on: push
+on:
+  schedule:
+    - cron: "25 9 */3 * *"
 jobs:
   release:
     name: Updates languages, releases a new version if needed
@@ -14,11 +16,11 @@ jobs:
         with:
           node-version: "14"
           registry-url: "https://registry.npmjs.org"
-      - name: Dependencies
-        id: dependencies
+      - name: Install dependencies
+        id: install_dependencies
         run: |
           npm install
-      - name: Update
+      - name: Update languages
         id: update
         run: |
           npm run update
