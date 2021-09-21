@@ -11,6 +11,9 @@
   "bugs": {
     "url": "https://github.com/crisp-dev/microsoft-translator-languages/issues"
   },
+  "devDependencies": {
+    "nodeunit-x": "0.14.0"
+  },
   "keywords": [
     "microsoft",
     "azure",
