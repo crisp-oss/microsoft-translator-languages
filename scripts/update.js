@@ -28,6 +28,7 @@ var MICROSOFT_TRANSLATOR = {
   ENDPOINT : "https://api.cognitive.microsofttranslator.com/languages?api-version=3.0&scope="
 };
 
+
 /**************************************************************************
  * FUNCTIONS
  ***************************************************************************/
@@ -51,7 +52,6 @@ var __read_json_file = (path) => {
         return resolve(JSON.parse(buffer))
       });
   });
-
 }
 
 /**

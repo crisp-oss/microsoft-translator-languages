@@ -27,14 +27,16 @@ jobs:
         if: ${{ steps.update.outputs.status == 'updated' }}
         run: |
           npm run test
+      - name: Bump version
+        id: bump_version
+        if: ${{ steps.update.outputs.status == 'updated' }}
+        run: |
+          npm run bump_version
       - name: Release
         id: release
         if: ${{ steps.update.outputs.status == 'updated' }}
         run: |
           npm run release
-        env:
-          GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
-          TEST: "test"
       # - name: Publish
       #   id: publish
       #   if: ${{ steps.update.status == 'updated' }}
