@@ -14,6 +14,10 @@ jobs:
         with:
           node-version: "14"
           registry-url: "https://registry.npmjs.org"
+      - name: Dependencies
+        id: dependencies
+        run: |
+          npm install
       - name: Update
         id: update
         run: |
