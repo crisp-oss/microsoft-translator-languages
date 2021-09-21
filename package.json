@@ -12,6 +12,7 @@
     "url": "https://github.com/crisp-dev/microsoft-translator-languages/issues"
   },
   "scripts": {
+    "bump_version": "node ./scripts/bump_version.js",
     "release": "./scripts/release.sh",
     "test": "nodeunit ./test/index.js",
     "update": "node ./scripts/update.js"

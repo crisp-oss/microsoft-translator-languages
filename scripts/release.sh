@@ -1,21 +1,10 @@
 #!/bin/bash
 
-# VER=`node -p "require('./package.json').version"`
-#
-# git config --local user.email "action@github.com"
-# git config --local user.name "GitHub Action"
-# git commit -a -m "Auto Release v${VER}"
-# git tag "v${VER}" HEAD
+VER=`node -p "require('./package.json').version"`
+REPO="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
-echo "${env.INPUT_GITHUB_TOKEN}"
-echo "${process.env.INPUT_GITHUB_TOKEN}"
-
-echo "${env.INPUT_TEST}"
-echo "${process.env.INPUT_TEST}"
-#
-# remote_repo="https://${GITHUB_ACTOR}:${INPUT_GITHUB_TOKEN}@github.com/${REPOSITORY}.git"
-#
-# git push "${remote_repo}" \
-#   HEAD:master \
-#   --follow-tags \
-#   --tags
+git config --local user.email "action@github.com"
+git config --local user.name "GitHub Action"
+git commit -a -m "v${VER} (auto-release)"
+git tag "v${VER}" HEAD
+git push "${REPO}" HEAD:master --follow-tags --tags

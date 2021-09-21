@@ -28,6 +28,7 @@ var MICROSOFT_TRANSLATOR = {
   ENDPOINT : "https://api.cognitive.microsofttranslator.com/languages?api-version=3.0&scope="
 };
 
+
 /**************************************************************************
  * FUNCTIONS
  ***************************************************************************/
@@ -51,7 +52,6 @@ var __read_json_file = (path) => {
         return resolve(JSON.parse(buffer))
       });
   });
-
 }
 
 /**
@@ -224,11 +224,9 @@ var update = () => {
       process.stdout.write(os.EOL);
 
       if (results.indexOf(true) !== -1) {
-        console.log("At least one scope updated");
         // At least one scope updated
         process.stdout.write("::set-output name=status::updated" + os.EOL);
       } else {
-        console.log("No scope updated");
         // No scope updated
         process.stdout.write("::set-output name=status::none_updated" + os.EOL);
       }
