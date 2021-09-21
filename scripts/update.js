@@ -4,7 +4,6 @@
  * IMPORTS
  ***************************************************************************/
 
-var core  = require("@actions/core");
 var fs    = require("fs");
 var https = require("https");
 var os    = require("os");
@@ -222,18 +221,14 @@ var update = () => {
     })
   )
     .then((results) => {
-      // process.stdout.write(os.EOL);
+      process.stdout.write(os.EOL);
 
       if (results.indexOf(true) !== -1) {
-        console.log("At least one scope updated");
-        core.setOutput("status", "updated");
         // At least one scope updated
-        // process.stdout.write("::set-output name=status::updated" + os.EOL);
+        process.stdout.write("::set-output name=status::updated" + os.EOL);
       } else {
-        console.log("No scope updated");
-        core.setOutput("status", "none_updated");
         // No scope updated
-        // process.stdout.write("::set-output name=status::none_updated" + os.EOL);
+        process.stdout.write("::set-output name=status::none_updated" + os.EOL);
       }
 
       process.exit(0);
