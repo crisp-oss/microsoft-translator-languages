@@ -22,9 +22,6 @@ jobs:
         id: update
         run: |
           npm run update
-      - name: Echo
-        id: echo
-        run: echo "The output status is ${{ steps.update.outputs.status }}"
       - name: Test
         id: test
         if: ${{ steps.update.outputs.status == 'updated' }}
