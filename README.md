@@ -10,16 +10,16 @@ Maps the languages currently supported by operations of the Microsoft Cognitive 
 ## Usage
 
 ```js
-const microsoftTranslator = require("microsoft-translator-languages");
+const { isLanguageSupported } = require("microsoft-translator-languages");
 
-console.log(microsoftTranslator.isLanguageSupported("en", "translation"));
+console.log(isLanguageSupported("en", "translation"));
 // true
 ```
 
 
 ## API
 
-#### Access to supported languages
+### Access to supported languages
 
 The raw sets of supported languages, as returned by Microsoft Translator API, are made accessible:
 
@@ -37,8 +37,8 @@ console.log(microsoftTranslator.dataTranslation);
 ```
 Supported scopes are: `translation`, `transliteration` & `dictionary`.
 
-#### Check if a language is supported
-`isLanguageSupported(code, scope)` returns whether a language is supported or not.
+### Check if a language is supported
+`isLanguageSupported(code, scope)` returns whether a language is supported or not:
 * `code` must be a BCP 47 language tag, as per [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1)
 * `scope` must be either `translation`, `transliteration` or `dictionary` (defaults to `translation`)
 
