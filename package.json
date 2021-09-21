@@ -11,6 +11,11 @@
   "bugs": {
     "url": "https://github.com/crisp-dev/microsoft-translator-languages/issues"
   },
+  "scripts": {
+    "release": "./tasks/release.sh",
+    "test": "./tasks/test.sh",
+    "update": "./tasks/update.sh"
+  },
   "devDependencies": {
     "nodeunit-x": "0.14.0"
   },
