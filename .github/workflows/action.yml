@@ -1,4 +1,4 @@
-name: release
+name: Release
 on: push
 jobs:
   release:
@@ -28,16 +28,13 @@ jobs:
         if: ${{ steps.build.update.status == 'updated' }}
         run: |
           npm run release
-      - name: Push
-        id: push
-        if: ${{ steps.build.update.status == 'updated' }}
-        uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.G_TOKEN }}
-      - name: Publish
-        id: publish
-        if: ${{ steps.build.update.status == 'updated' }}
-        run: |
-          npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          github_token: ${{ secrets.NPM_TOKEN }}
+          test: "test"
+      # - name: Publish
+      #   id: publish
+      #   if: ${{ steps.build.update.status == 'updated' }}
+      #   run: |
+      #     npm publish
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

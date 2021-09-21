@@ -1,17 +1,4 @@
 {
-  "af": {
-    "name": "Afrikaans",
-    "nativeName": "Afrikaans",
-    "dir": "ltr",
-    "translations": [
-      {
-        "name": "English",
-        "nativeName": "English",
-        "dir": "ltr",
-        "code": "en"
-      }
-    ]
-  },
   "ar": {
     "name": "Arabic",
     "nativeName": "العربية",
