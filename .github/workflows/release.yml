@@ -33,11 +33,11 @@ jobs:
         if: ${{ steps.build.update.status == 'updated' }}
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ tokens.GITHUB_TOKEN }}
+          github_token: ${{ secrets.G_TOKEN }}
       - name: Publish
         id: publish
         if: ${{ steps.build.update.status == 'updated' }}
         run: |
           npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ tokens.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
