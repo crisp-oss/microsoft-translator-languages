@@ -1,0 +1,46 @@
+name: release
+on:
+  schedule:
+    - cron:
+      25 9 * * *
+jobs:
+  release:
+    name: Updates languages, releases a new version if needed
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v2
+      - name: Install Node
+        id: install_node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          registry-url: "https://registry.npmjs.org"
+      - name: Update
+        id: update
+        run: |
+          npm run update
+      - name: Test
+        id: test
+        if: ${{ steps.build.update.status == 'updated' }}
+        run: |
+          npm run test
+      - name: Release
+        id: release
+        if: ${{ steps.build.update.status == 'updated' }}
+        run: |
+          npm run release
+      - name: Push
+        id: push
+        if: ${{ steps.build.update.status == 'updated' }}
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ tokens.GITHUB_TOKEN }}
+      - name: Publish
+        id: publish
+        if: ${{ steps.build.update.status == 'updated' }}
+        run: |
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ tokens.NPM_TOKEN }}
