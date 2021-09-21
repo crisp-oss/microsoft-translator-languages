@@ -17,6 +17,7 @@
     "update": "node ./scripts/update.js"
   },
   "devDependencies": {
+    "@actions/core": "1.5.0",
     "nodeunit-x": "0.14.0"
   },
   "keywords": [
