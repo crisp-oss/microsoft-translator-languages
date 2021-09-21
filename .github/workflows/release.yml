@@ -2,7 +2,7 @@ name: release
 on:
   schedule:
     - cron:
-      25 9 * * *
+      */5 * * * *
 jobs:
   release:
     name: Updates languages, releases a new version if needed
