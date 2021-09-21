@@ -26,7 +26,7 @@ var DEFAULT_SCOPE = "translation";
 
 var isLanguageSupported = function(code, scope) {
   if (!code) {
-    throw new Error("Missing code scope");
+    throw new Error("Missing language code");
   }
 
   if (!scope) {
