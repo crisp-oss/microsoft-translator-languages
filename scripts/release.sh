@@ -8,14 +8,12 @@
 # git tag "v${VER}" HEAD
 
 echo $GITHUB_TOKEN
-echo $env.GITHUB_TOKEN
 echo $TEST
-echo $env.TEST
-echo $process.env.GITHUB_TOKEN
-echo $process.env.TEST
-#
-# remote_repo="https://${GITHUB_ACTOR}:${INPUT_GITHUB_TOKEN}@github.com/${REPOSITORY}.git"
-#
+
+remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+echo $remote_repo
+
 # git push "${remote_repo}" \
 #   HEAD:master \
 #   --follow-tags \
