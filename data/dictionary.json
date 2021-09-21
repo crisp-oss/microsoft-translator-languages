@@ -25,6 +25,19 @@
       }
     ]
   },
+  "bg": {
+    "name": "Bulgarian",
+    "nativeName": "Български",
+    "dir": "ltr",
+    "translations": [
+      {
+        "name": "English",
+        "nativeName": "English",
+        "dir": "ltr",
+        "code": "en"
+      }
+    ]
+  },
   "bn": {
     "name": "Bangla",
     "nativeName": "বাংলা",
