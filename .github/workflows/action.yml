@@ -20,12 +20,12 @@ jobs:
           npm run update
       - name: Test
         id: test
-        if: ${{ steps.build.update.status == 'updated' }}
+        if: ${{ steps.update.status == 'updated' }}
         run: |
           npm run test
       - name: Release
         id: release
-        if: ${{ steps.build.update.status == 'updated' }}
+        if: ${{ steps.update.status == 'updated' }}
         run: |
           npm run release
         env:
@@ -33,7 +33,7 @@ jobs:
           TEST: "test"
       # - name: Publish
       #   id: publish
-      #   if: ${{ steps.build.update.status == 'updated' }}
+      #   if: ${{ steps.update.status == 'updated' }}
       #   run: |
       #     npm publish
       #   env:

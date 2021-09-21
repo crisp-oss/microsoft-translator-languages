@@ -224,9 +224,11 @@ var update = () => {
       process.stdout.write(os.EOL);
 
       if (results.indexOf(true) !== -1) {
+        console.log("At least one scope updated");
         // At least one scope updated
         process.stdout.write("::set-output name=status::updated" + os.EOL);
       } else {
+        console.log("No scope updated");
         // No scope updated
         process.stdout.write("::set-output name=status::none_updated" + os.EOL);
       }
