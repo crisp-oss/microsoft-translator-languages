@@ -7,12 +7,12 @@
 # git commit -a -m "Auto Release v${VER}"
 # git tag "v${VER}" HEAD
 
-echo $INPUT_GITHUB_TOKEN
-echo $env.INPUT_GITHUB_TOKEN
-echo $INPUT_TEST
-echo $env.INPUT_TEST
-echo $process.env.INPUT_GITHUB_TOKEN
-echo $process.env.INPUT_TEST
+echo $GITHUB_TOKEN
+echo $env.GITHUB_TOKEN
+echo $TEST
+echo $env.TEST
+echo $process.env.GITHUB_TOKEN
+echo $process.env.TEST
 #
 # remote_repo="https://${GITHUB_ACTOR}:${INPUT_GITHUB_TOKEN}@github.com/${REPOSITORY}.git"
 #
