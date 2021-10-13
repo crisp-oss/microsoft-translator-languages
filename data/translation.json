@@ -24,6 +24,11 @@
     "nativeName": "Azərbaycan",
     "dir": "ltr"
   },
+  "ba": {
+    "name": "Bashkir",
+    "nativeName": "Bashkir",
+    "dir": "ltr"
+  },
   "bg": {
     "name": "Bulgarian",
     "nativeName": "Български",
@@ -32,6 +37,11 @@
   "bn": {
     "name": "Bangla",
     "nativeName": "বাংলা",
+    "dir": "ltr"
+  },
+  "bo": {
+    "name": "Tibetan",
+    "nativeName": "བོད་སྐད་",
     "dir": "ltr"
   },
   "bs": {
@@ -63,6 +73,11 @@
     "name": "German",
     "nativeName": "Deutsch",
     "dir": "ltr"
+  },
+  "dv": {
+    "name": "Divehi",
+    "nativeName": "ދިވެހިބަސް",
+    "dir": "rtl"
   },
   "el": {
     "name": "Greek",
@@ -179,6 +194,11 @@
     "nativeName": "日本語",
     "dir": "ltr"
   },
+  "ka": {
+    "name": "Georgian",
+    "nativeName": "ქართული",
+    "dir": "ltr"
+  },
   "kk": {
     "name": "Kazakh",
     "nativeName": "Қазақ Тілі",
@@ -208,6 +228,11 @@
     "name": "Kurdish (Central)",
     "nativeName": "Kurdî (Navîn)",
     "dir": "rtl"
+  },
+  "ky": {
+    "name": "Kyrgyz",
+    "nativeName": "Kyrgyz",
+    "dir": "ltr"
   },
   "lo": {
     "name": "Lao",
@@ -239,9 +264,24 @@
     "nativeName": "Te Reo Māori",
     "dir": "ltr"
   },
+  "mk": {
+    "name": "Macedonian",
+    "nativeName": "Македонски",
+    "dir": "ltr"
+  },
   "ml": {
     "name": "Malayalam",
     "nativeName": "മലയാളം",
+    "dir": "ltr"
+  },
+  "mn-Cyrl": {
+    "name": "Mongolian (Cyrillic)",
+    "nativeName": "Mongolian (Cyrillic)",
+    "dir": "ltr"
+  },
+  "mn-Mong": {
+    "name": "Mongolian (Traditional)",
+    "nativeName": "ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡ",
     "dir": "ltr"
   },
   "mr": {
@@ -394,6 +434,11 @@
     "nativeName": "ትግር",
     "dir": "ltr"
   },
+  "tk": {
+    "name": "Turkmen",
+    "nativeName": "Türkmen Dili",
+    "dir": "ltr"
+  },
   "tlh-Latn": {
     "name": "Klingon (Latin)",
     "nativeName": "Klingon (Latin)",
@@ -414,10 +459,20 @@
     "nativeName": "Türkçe",
     "dir": "ltr"
   },
+  "tt": {
+    "name": "Tatar",
+    "nativeName": "Татар",
+    "dir": "ltr"
+  },
   "ty": {
     "name": "Tahitian",
     "nativeName": "Tahitian",
     "dir": "ltr"
+  },
+  "ug": {
+    "name": "Uyghur",
+    "nativeName": "ئۇيغۇرچە",
+    "dir": "rtl"
   },
   "uk": {
     "name": "Ukrainian",
@@ -428,6 +483,11 @@
     "name": "Urdu",
     "nativeName": "اردو",
     "dir": "rtl"
+  },
+  "uz": {
+    "name": "Uzbek (Latin)",
+    "nativeName": "Uzbek (Latin)",
+    "dir": "ltr"
   },
   "vi": {
     "name": "Vietnamese",
