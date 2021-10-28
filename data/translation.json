@@ -116,7 +116,7 @@
   },
   "fj": {
     "name": "Fijian",
-    "nativeName": "Fijian",
+    "nativeName": "Na Vosa Vakaviti",
     "dir": "ltr"
   },
   "fr": {
@@ -211,7 +211,7 @@
   },
   "kmr": {
     "name": "Kurdish (Northern)",
-    "nativeName": "Kurdish (Northern)",
+    "nativeName": "Kurdî (Bakur)",
     "dir": "ltr"
   },
   "kn": {
@@ -251,7 +251,7 @@
   },
   "lzh": {
     "name": "Chinese (Literary)",
-    "nativeName": "Chinese (Literary)",
+    "nativeName": "中文 (文言文)",
     "dir": "ltr"
   },
   "mg": {
@@ -331,7 +331,7 @@
   },
   "otq": {
     "name": "Querétaro Otomi",
-    "nativeName": "Querétaro Otomi",
+    "nativeName": "Hñähñu",
     "dir": "ltr"
   },
   "pa": {
@@ -386,7 +386,7 @@
   },
   "sm": {
     "name": "Samoan",
-    "nativeName": "Samoan",
+    "nativeName": "Gagana Sāmoa",
     "dir": "ltr"
   },
   "sq": {
@@ -466,7 +466,7 @@
   },
   "ty": {
     "name": "Tahitian",
-    "nativeName": "Tahitian",
+    "nativeName": "Reo Tahiti",
     "dir": "ltr"
   },
   "ug": {
