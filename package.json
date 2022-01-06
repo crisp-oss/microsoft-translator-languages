@@ -4,12 +4,13 @@
   "description": "Maps supported languages by Microsoft Cognitive Translator",
   "author": "Eliott Vincent <eliott@crisp.chat>",
   "main": "src/index.js",
+  "homepage": "https://github.com/crisp-oss/microsoft-translator-languages",
   "repository": {
     "type": "git",
-    "url": "git://github.com/crisp-dev/microsoft-translator-languages"
+    "url": "git://github.com/crisp-oss/microsoft-translator-languages"
   },
   "bugs": {
-    "url": "https://github.com/crisp-dev/microsoft-translator-languages/issues"
+    "url": "https://github.com/crisp-oss/microsoft-translator-languages/issues"
   },
   "scripts": {
     "bump_version": "node ./scripts/bump_version.js",

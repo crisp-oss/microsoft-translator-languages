@@ -1,10 +1,23 @@
-microsoft-translator-languages
-============
+# Microsoft Translator Languages
+
+[![Build Status](https://github.com/crisp-oss/microsoft-translator-languages/actions/workflows/action.yml/badge.svg)](https://github.com/crisp-oss/microsoft-translator-languages/actions) [![NPM](https://img.shields.io/npm/v/microsoft-translator-languages.svg)](https://www.npmjs.com/package/microsoft-translator-languages) [![Downloads](https://img.shields.io/npm/dt/microsoft-translator-languages.svg)](https://www.npmjs.com/package/microsoft-translator-languages)
 
 Maps the languages currently supported by operations of the Microsoft Cognitive Translator service. The data **auto-updates every 3 days**, if needed.
 
-[![Build Status](https://github.com/crisp-dev/microsoft-translator-languages/actions/workflows/action.yml/badge.svg)](https://github.com/crisp-dev/microsoft-translator-languages/actions/workflows/action.yml)
-[![npm version](https://badge.fury.io/js/microsoft-translator-languages.svg)](http://badge.fury.io/js/microsoft-translator-languages)
+**😘 Maintainer**: [@baptistejamin](https://github.com/baptistejamin)
+
+## Who uses it?
+
+<table>
+<tr>
+<td align="center"><a href="https://crisp.chat/"><img src="https://crisp.chat/favicon-256x256.png" height="64" /></a></td>
+</tr>
+<tr>
+<td align="center">Crisp</td>
+</tr>
+</table>
+
+_👋 You use this library and you want to be listed there? [Contact us](https://crisp.chat/)._
 
 
 ## Usage
