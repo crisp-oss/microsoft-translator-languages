@@ -4,7 +4,7 @@
 
 Maps the languages currently supported by operations of the Microsoft Cognitive Translator service. The data **auto-updates every 3 days**, if needed.
 
-**😘 Maintainer**: [@baptistejamin](https://github.com/baptistejamin)
+**😘 Maintainer**: [@eliottvincent](https://github.com/eliottvincent)
 
 ## Who uses it?
 
