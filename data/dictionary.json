@@ -244,12 +244,6 @@
         "code": "fi"
       },
       {
-        "name": "Faroese",
-        "nativeName": "Haitian Creole",
-        "dir": "ltr",
-        "code": "ht"
-      },
-      {
         "name": "French",
         "nativeName": "Français",
         "dir": "ltr",
@@ -543,19 +537,6 @@
   "hr": {
     "name": "Croatian",
     "nativeName": "Hrvatski",
-    "dir": "ltr",
-    "translations": [
-      {
-        "name": "English",
-        "nativeName": "English",
-        "dir": "ltr",
-        "code": "en"
-      }
-    ]
-  },
-  "ht": {
-    "name": "Faroese",
-    "nativeName": "Haitian Creole",
     "dir": "ltr",
     "translations": [
       {
