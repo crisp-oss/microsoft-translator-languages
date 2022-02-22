@@ -154,6 +154,11 @@
     "nativeName": "Hrvatski",
     "dir": "ltr"
   },
+  "hsb": {
+    "name": "Upper Sorbian",
+    "nativeName": "Hornjoserbšćina",
+    "dir": "ltr"
+  },
   "ht": {
     "name": "Haitian Creole",
     "nativeName": "Haitian Creole",
