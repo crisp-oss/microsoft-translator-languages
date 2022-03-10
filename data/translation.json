@@ -404,6 +404,11 @@
     "nativeName": "Gagana Sāmoa",
     "dir": "ltr"
   },
+  "so": {
+    "name": "Somali",
+    "nativeName": "Af Soomaali",
+    "dir": "ltr"
+  },
   "sq": {
     "name": "Albanian",
     "nativeName": "Shqip",
