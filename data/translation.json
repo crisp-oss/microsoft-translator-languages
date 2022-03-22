@@ -533,5 +533,10 @@
     "name": "Chinese Traditional",
     "nativeName": "繁體中文 (繁體)",
     "dir": "ltr"
+  },
+  "zu": {
+    "name": "Zulu",
+    "nativeName": "Isi-Zulu",
+    "dir": "ltr"
   }
 }
