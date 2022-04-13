@@ -99,6 +99,11 @@
     "nativeName": "Eesti",
     "dir": "ltr"
   },
+  "eu": {
+    "name": "Basque",
+    "nativeName": "Euskara",
+    "dir": "ltr"
+  },
   "fa": {
     "name": "Persian",
     "nativeName": "فارسی",
@@ -132,6 +137,11 @@
   "ga": {
     "name": "Irish",
     "nativeName": "Gaeilge",
+    "dir": "ltr"
+  },
+  "gl": {
+    "name": "Galician",
+    "nativeName": "Galego",
     "dir": "ltr"
   },
   "gu": {
