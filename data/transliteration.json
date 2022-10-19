@@ -645,6 +645,40 @@
       }
     ]
   },
+  "ne": {
+    "name": "Nepali",
+    "nativeName": "नेपाली",
+    "scripts": [
+      {
+        "code": "Deva",
+        "name": "Devanagari",
+        "nativeName": "देवानागरी",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "ल्याटिन",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "ल्याटिन",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Deva",
+            "name": "Devanagari",
+            "nativeName": "देवानागरी",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
   "or": {
     "name": "Odia",
     "nativeName": "ଓଡ଼ିଆ",
