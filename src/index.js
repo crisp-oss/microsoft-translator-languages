@@ -26,7 +26,7 @@ var DEFAULT_SCOPE = "translation";
 
 /**
  * Checks whether a language is supported or not
- * @private
+ * @public
  * @param  {string}  code
  * @param  {string}  [scope]
  * @return {boolean} Whether the language is supported or not
