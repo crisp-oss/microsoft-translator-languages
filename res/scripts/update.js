@@ -15,7 +15,7 @@ var url   = require("url");
  * CONFIGURATION
  ***************************************************************************/
 
-var DATA_DIR = path.join(__dirname, "/../data/");
+var DATA_DIR = path.join(__dirname, "./../../data/");
 
 var SCOPES = [
   "translation",
