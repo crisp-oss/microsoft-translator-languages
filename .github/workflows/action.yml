@@ -2,6 +2,8 @@ name: Release
 on:
   schedule:
     - cron: "25 9 */3 * *"
+permissions:
+  id-token: write
 jobs:
   release:
     name: Updates languages, releases a new version if needed
@@ -50,6 +52,6 @@ jobs:
         id: publish
         if: ${{ steps.update.outputs.status == 'updated' }}
         run: |
-          npm publish
+          npm publish --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
