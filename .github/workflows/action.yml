@@ -4,6 +4,7 @@ on:
     - cron: "25 9 */3 * *"
 permissions:
   id-token: write
+  contents: write
 jobs:
   release:
     name: Updates languages, releases a new version if needed
