@@ -69,18 +69,18 @@
   },
   "be": {
     "name": "Belarusian",
-    "nativeName": "Belarusian",
+    "nativeName": "беларуская",
     "scripts": [
       {
         "code": "Cyrl",
         "name": "Cyrillic",
-        "nativeName": "Cyrillic",
+        "nativeName": "Кірыліца",
         "dir": "ltr",
         "toScripts": [
           {
             "code": "Latn",
             "name": "Latin",
-            "nativeName": "Latin",
+            "nativeName": "Лацініца",
             "dir": "ltr"
           }
         ]
@@ -88,13 +88,13 @@
       {
         "code": "Latn",
         "name": "Latin",
-        "nativeName": "Latin",
+        "nativeName": "Лацініца",
         "dir": "ltr",
         "toScripts": [
           {
             "code": "Cyrl",
             "name": "Cyrillic",
-            "nativeName": "Cyrillic",
+            "nativeName": "Кірыліца",
             "dir": "ltr"
           }
         ]
@@ -169,6 +169,40 @@
       }
     ]
   },
+  "brx": {
+    "name": "Bodo",
+    "nativeName": "बड़ो",
+    "scripts": [
+      {
+        "code": "Deva",
+        "name": "Devanagari",
+        "nativeName": "Devanagari",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Deva",
+            "name": "Devanagari",
+            "nativeName": "Devanagari",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
   "el": {
     "name": "Greek",
     "nativeName": "Ελληνικά",
@@ -232,6 +266,40 @@
             "name": "Arabic",
             "nativeName": "عربی",
             "dir": "rtl"
+          }
+        ]
+      }
+    ]
+  },
+  "gom": {
+    "name": "Konkani",
+    "nativeName": "Konkani",
+    "scripts": [
+      {
+        "code": "Deva",
+        "name": "Devanagari",
+        "nativeName": "Devanagari",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Deva",
+            "name": "Devanagari",
+            "nativeName": "Devanagari",
+            "dir": "ltr"
           }
         ]
       }
@@ -475,6 +543,40 @@
       }
     ]
   },
+  "ks": {
+    "name": "Kashmiri",
+    "nativeName": "کٲشُر",
+    "scripts": [
+      {
+        "code": "Arab",
+        "name": "Arabic",
+        "nativeName": "Arabic",
+        "dir": "rtl",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Arab",
+            "name": "Arabic",
+            "nativeName": "Arabic",
+            "dir": "rtl"
+          }
+        ]
+      }
+    ]
+  },
   "ky": {
     "name": "Kyrgyz",
     "nativeName": "Кыргызча",
@@ -503,6 +605,40 @@
             "code": "Cyrl",
             "name": "Cyrillic",
             "nativeName": "кирилл",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "mai": {
+    "name": "Maithili",
+    "nativeName": "Maithili",
+    "scripts": [
+      {
+        "code": "Deva",
+        "name": "Devanagari",
+        "nativeName": "Devanagari",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Deva",
+            "name": "Devanagari",
+            "nativeName": "Devanagari",
             "dir": "ltr"
           }
         ]
@@ -605,6 +741,40 @@
             "code": "Cyrl",
             "name": "Cyrillic",
             "nativeName": "кирилл",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "mni": {
+    "name": "Manipuri",
+    "nativeName": "মৈতৈলোন্",
+    "scripts": [
+      {
+        "code": "Beng",
+        "name": "Bengali",
+        "nativeName": "Bengali",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "Latin",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "Latin",
+        "dir": "ltr",
+        "toScripts": [
+          {
+            "code": "Beng",
+            "name": "Bangla",
+            "nativeName": "Bengali",
             "dir": "ltr"
           }
         ]
@@ -781,14 +951,14 @@
       }
     ]
   },
-  "sd": {
-    "name": "Sindhi",
-    "nativeName": "سنڌي",
+  "sa": {
+    "name": "Sanskrit",
+    "nativeName": "संस्कृत",
     "scripts": [
       {
-        "code": "Arab",
-        "name": "Arabic",
-        "nativeName": "Arabic",
+        "code": "Deva",
+        "name": "Devanagari",
+        "nativeName": "Devanagari",
         "dir": "ltr",
         "toScripts": [
           {
@@ -806,10 +976,44 @@
         "dir": "ltr",
         "toScripts": [
           {
+            "code": "Deva",
+            "name": "Devanagari",
+            "nativeName": "Devanagari",
+            "dir": "ltr"
+          }
+        ]
+      }
+    ]
+  },
+  "sd": {
+    "name": "Sindhi",
+    "nativeName": "سنڌي",
+    "scripts": [
+      {
+        "code": "Arab",
+        "name": "Arabic",
+        "nativeName": "عربي",
+        "dir": "rtl",
+        "toScripts": [
+          {
+            "code": "Latn",
+            "name": "Latin",
+            "nativeName": "لاطيني",
+            "dir": "ltr"
+          }
+        ]
+      },
+      {
+        "code": "Latn",
+        "name": "Latin",
+        "nativeName": "لاطيني",
+        "dir": "ltr",
+        "toScripts": [
+          {
             "code": "Arab",
             "name": "Arabic",
-            "nativeName": "Arabic",
-            "dir": "ltr"
+            "nativeName": "عربي",
+            "dir": "rtl"
           }
         ]
       }
@@ -822,13 +1026,13 @@
       {
         "code": "Sinh",
         "name": "Sinhala",
-        "nativeName": "Sinhala",
+        "nativeName": "සිංහල",
         "dir": "ltr",
         "toScripts": [
           {
             "code": "Latn",
             "name": "Latin",
-            "nativeName": "Latin",
+            "nativeName": "ලතින්",
             "dir": "ltr"
           }
         ]
@@ -836,13 +1040,13 @@
       {
         "code": "Latn",
         "name": "Latin",
-        "nativeName": "Latin",
+        "nativeName": "ලතින්",
         "dir": "ltr",
         "toScripts": [
           {
             "code": "Sinh",
             "name": "Sinhala",
-            "nativeName": "Sinhala",
+            "nativeName": "සිංහල",
             "dir": "ltr"
           }
         ]
@@ -964,13 +1168,13 @@
       {
         "code": "Cyrl",
         "name": "Cyrillic",
-        "nativeName": "Cyrillic",
+        "nativeName": "Кириллӣ",
         "dir": "ltr",
         "toScripts": [
           {
             "code": "Latn",
             "name": "Latin",
-            "nativeName": "Latin",
+            "nativeName": "Лотинӣ",
             "dir": "ltr"
           }
         ]
@@ -978,13 +1182,13 @@
       {
         "code": "Latn",
         "name": "Latin",
-        "nativeName": "Latin",
+        "nativeName": "Лотинӣ",
         "dir": "ltr",
         "toScripts": [
           {
             "code": "Cyrl",
             "name": "Cyrillic",
-            "nativeName": "Cyrillic",
+            "nativeName": "Кириллӣ",
             "dir": "ltr"
           }
         ]
