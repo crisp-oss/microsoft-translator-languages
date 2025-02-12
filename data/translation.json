@@ -34,6 +34,11 @@
     "nativeName": "Български",
     "dir": "ltr"
   },
+  "bho": {
+    "name": "Bhojpuri",
+    "nativeName": "Bhojpuri",
+    "dir": "ltr"
+  },
   "bn": {
     "name": "Bangla",
     "nativeName": "বাংলা",
@@ -42,6 +47,11 @@
   "bo": {
     "name": "Tibetan",
     "nativeName": "བོད་སྐད་",
+    "dir": "ltr"
+  },
+  "brx": {
+    "name": "Bodo",
+    "nativeName": "बड़ो",
     "dir": "ltr"
   },
   "bs": {
@@ -72,6 +82,16 @@
   "de": {
     "name": "German",
     "nativeName": "Deutsch",
+    "dir": "ltr"
+  },
+  "doi": {
+    "name": "Dogri",
+    "nativeName": "Dogri",
+    "dir": "ltr"
+  },
+  "dsb": {
+    "name": "Lower Sorbian",
+    "nativeName": "Dolnoserbšćina",
     "dir": "ltr"
   },
   "dv": {
@@ -149,9 +169,19 @@
     "nativeName": "Galego",
     "dir": "ltr"
   },
+  "gom": {
+    "name": "Konkani",
+    "nativeName": "Konkani",
+    "dir": "ltr"
+  },
   "gu": {
     "name": "Gujarati",
     "nativeName": "ગુજરાતી",
+    "dir": "ltr"
+  },
+  "ha": {
+    "name": "Hausa",
+    "nativeName": "Hausa",
     "dir": "ltr"
   },
   "he": {
@@ -192,6 +222,11 @@
   "id": {
     "name": "Indonesian",
     "nativeName": "Indonesia",
+    "dir": "ltr"
+  },
+  "ig": {
+    "name": "Igbo",
+    "nativeName": "Ásụ̀sụ́ Ìgbò",
     "dir": "ltr"
   },
   "ikt": {
@@ -254,6 +289,11 @@
     "nativeName": "한국어",
     "dir": "ltr"
   },
+  "ks": {
+    "name": "Kashmiri",
+    "nativeName": "کٲشُر",
+    "dir": "rtl"
+  },
   "ku": {
     "name": "Kurdish (Central)",
     "nativeName": "Kurdî (Navîn)",
@@ -262,6 +302,11 @@
   "ky": {
     "name": "Kyrgyz",
     "nativeName": "Кыргызча",
+    "dir": "ltr"
+  },
+  "ln": {
+    "name": "Lingala",
+    "nativeName": "Lingála",
     "dir": "ltr"
   },
   "lo": {
@@ -274,6 +319,11 @@
     "nativeName": "Lietuvių",
     "dir": "ltr"
   },
+  "lug": {
+    "name": "Ganda",
+    "nativeName": "Ganda",
+    "dir": "ltr"
+  },
   "lv": {
     "name": "Latvian",
     "nativeName": "Latviešu",
@@ -282,6 +332,11 @@
   "lzh": {
     "name": "Chinese (Literary)",
     "nativeName": "中文 (文言文)",
+    "dir": "ltr"
+  },
+  "mai": {
+    "name": "Maithili",
+    "nativeName": "Maithili",
     "dir": "ltr"
   },
   "mg": {
@@ -354,6 +409,16 @@
     "nativeName": "Nederlands",
     "dir": "ltr"
   },
+  "nso": {
+    "name": "Sesotho sa Leboa",
+    "nativeName": "Sesotho sa Leboa",
+    "dir": "ltr"
+  },
+  "nya": {
+    "name": "Nyanja",
+    "nativeName": "Nyanja",
+    "dir": "ltr"
+  },
   "or": {
     "name": "Odia",
     "nativeName": "ଓଡ଼ିଆ",
@@ -404,6 +469,26 @@
     "nativeName": "Русский",
     "dir": "ltr"
   },
+  "run": {
+    "name": "Rundi",
+    "nativeName": "Rundi",
+    "dir": "ltr"
+  },
+  "rw": {
+    "name": "Kinyarwanda",
+    "nativeName": "Kinyarwanda",
+    "dir": "ltr"
+  },
+  "sd": {
+    "name": "Sindhi",
+    "nativeName": "سنڌي",
+    "dir": "rtl"
+  },
+  "si": {
+    "name": "Sinhala",
+    "nativeName": "සිංහල",
+    "dir": "ltr"
+  },
   "sk": {
     "name": "Slovak",
     "nativeName": "Slovenčina",
@@ -417,6 +502,11 @@
   "sm": {
     "name": "Samoan",
     "nativeName": "Gagana Sāmoa",
+    "dir": "ltr"
+  },
+  "sn": {
+    "name": "Shona",
+    "nativeName": "chiShona",
     "dir": "ltr"
   },
   "so": {
@@ -437,6 +527,11 @@
   "sr-Latn": {
     "name": "Serbian (Latin)",
     "nativeName": "Srpski (latinica)",
+    "dir": "ltr"
+  },
+  "st": {
+    "name": "Sesotho",
+    "nativeName": "Sesotho",
     "dir": "ltr"
   },
   "sv": {
@@ -484,6 +579,11 @@
     "nativeName": "Klingon (pIqaD)",
     "dir": "ltr"
   },
+  "tn": {
+    "name": "Setswana",
+    "nativeName": "Setswana",
+    "dir": "ltr"
+  },
   "to": {
     "name": "Tongan",
     "nativeName": "Lea Fakatonga",
@@ -527,6 +627,16 @@
   "vi": {
     "name": "Vietnamese",
     "nativeName": "Tiếng Việt",
+    "dir": "ltr"
+  },
+  "xh": {
+    "name": "Xhosa",
+    "nativeName": "isiXhosa",
+    "dir": "ltr"
+  },
+  "yo": {
+    "name": "Yoruba",
+    "nativeName": "Èdè Yorùbá",
     "dir": "ltr"
   },
   "yua": {
